@@ -19,7 +19,6 @@ app.get('/', function (req, res, next) {
                     href: $element.attr('href')
                 });
             });
-
             res.send(items);
         });
 });
